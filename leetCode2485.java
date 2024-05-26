@@ -11,7 +11,7 @@ class Solution {
             int rightSum = prefixSum[n] - prefixSum[i - 1];  // Sum of numbers from i to n
             
             if (leftSum == rightSum) {
-                return x;
+                return i;
             }
         }
         
