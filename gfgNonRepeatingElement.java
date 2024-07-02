@@ -1,4 +1,7 @@
 // https://www.geeksforgeeks.org/problems/non-repeating-element3958/1
+
+import java.util.HashMap;
+
 class Check{
     
     public int firstNonRepeating(int arr[], int n) 
