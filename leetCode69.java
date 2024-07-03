@@ -11,9 +11,9 @@ class Solution {
                 ans = mid;
                 low = mid + 1;
 
-            }else if (mid * mid == x){
+            } else if (mid * mid == x){
                 return mid;
-            }else {
+            } else {
                 high = mid - 1; 
             }
         }
